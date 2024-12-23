@@ -1,6 +1,6 @@
 {
   "name": "@cryptix/wallet-worker",
-  "version": "1.1.26",
+  "version": "0.0.7",
   "description": "Worker (node + browser) wrapping cryptix-wallet",
   "main": "dist/index.js",
   "authors": [
@@ -20,7 +20,7 @@
   "dependencies": {
     "@aspectron/flow-logger": ">=1.0.1",
     "@aspectron/web-worker": "^1.0.0",
-    "@cryptix/wallet": "github:cryptix-network/cryptix-wallet"
+    "@cryptix/wallet": "https://github.com/cryptix-network/cryptix-wallet"
   },
   "devDependencies": {
     "@types/node": "^14.14.9",
